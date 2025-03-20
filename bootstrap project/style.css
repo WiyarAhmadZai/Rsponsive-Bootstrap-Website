@@ -1,0 +1,309 @@
+a{
+    text-decoration: none;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+}
+#header{
+    color: white;
+    background-color: blue;
+    box-shadow: 23px 23px 3px;
+    
+}
+#header h1{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding: 7px;
+}
+span{
+    color: goldenrod;
+}
+
+#menu {
+    float: right;
+}
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+#menu a{
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu a:hover{
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+.banner{
+    background: url(images/banner-bg.jpg) rgba(0, 0, 0, 0.5) no-repeat;
+    background-blend-mode: darken;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0px 50px 40px;
+    color: white;
+}
+.banner h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner button{
+    border: 1px dashed blue;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    background: none;
+    color: white;
+}
+.banner button:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.banner p{
+    color: rgb(231, 222, 222);
+}
+.section{
+    padding: 70px 0px;
+    /* text-align: center; */
+}
+.sevice-box{
+    padding-top: 40px;
+    text-align: center;
+}
+.sevice-box i{
+    color: rgb(0, 124, 226);
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.section h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.section h2:after{
+    background-color: goldenrod;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#testimonial{
+    text-align: center;
+    background: url(images/testimonial-bg.jpg) rgba(0, 0, 0, 0.8) no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0px 70px 0px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.testimonial img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+.news-div {
+    
+}
+.news-div:hover{
+    box-shadow: 2px 1px 4px;
+    transform: translateY(-10px);
+    transition: 600ms;
+}
+#news h3 a{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#news img{
+    width: 270px;
+    height: 140px;
+}
+.news-date{
+    font-size: 12px;
+}
+#news p{
+    color: black;
+}
+#news i{
+    font-size: 12px;
+    color: rgba(14, 13, 13, 0.7);
+}
+.read-more a,i{
+    color: red;
+}
+.read-more{
+    padding-bottom: 10px;
+}
+#footer-sidebar{
+    background-color: #34495e;
+    padding: 40px 0px;
+    color: white;
+}
+#footer-sidebar a{
+    color: white;
+}
+#footer-sidebar a:hover {
+    color: rgb(209, 206, 206);
+    font-size: 1.1rem;
+}
+#footer-sidebar i{
+    color: white;
+    font-size: 10px;
+}
+#footer-sidebar h4:after{
+    content: " ";
+    background-color: white;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 5px 0px;
+}
+#footer-sidebar li{
+    margin-bottom: 3px;
+}
+
+#footer{
+    background-color: #1c2835;
+    color: white;
+    padding: 20px 0px;
+
+}
+#footer li{
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+}
+#footer li a{
+    color: white;
+    font-size: 30px;
+}
+#footer li a:hover{
+    color: rgb(57, 120, 255);
+    transform: translatey(-15px);
+    transition: 1s;
+    border: none;
+}
+@media (max-width:768px){
+    #header h1{
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        padding-bottom: 0%;
+    }
+    #menu {
+        text-align: center;
+        /* margin-top: 0%; */
+        /* margin-left: 50px; */
+        /* padding-top: 0%; */
+        /* float: left; */
+        /* text-align: center; */
+        margin-right: 90px;
+    }
+    #menu li a{
+        font-size: 10px;
+    }
+    .banner{
+        padding: 5px 0px;
+    }
+    .banner h1{
+        font-size: 1/7rem;
+    }
+    .banner P{
+        font-size: 13px;
+    }
+    .banner button{
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-wedgets{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+        padding-top: 10px;
+        
+    }
+    #social-icons{
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 10px;
+        float: left;
+    }
+    .news-div{
+        text-align: center;
+    }
+    
+    .section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #footer-sidebar{
+        font-size: 13px;
+    }
+    #footer-sidebar div{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 992px){
+    #news .read-more{
+        padding-bottom: 90px;
+    }
+    #testimonial p{
+        /* text-align: left; */
+        font-size: 10px;
+    }
+    #testimonial{
+        font-size: 10px;
+    }
+    #footer-sidebar{
+        font-size: 13px;
+    }
+    #footer{
+        font-size: 13px;
+    }
+    #social-icons li a{
+        font-size: 20px;
+    }
+}
+@media(max-width:460px){
+    #header{
+        display: flex;
+        justify-content: center;
+    }
+    #header h1{
+        /* margin: 0px; */
+        margin-bottom: 0%;
+    }
+    #menu li a{
+        font-size: 7px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #menu li a:hover{
+        font-size: 10px;
+    }
+}
